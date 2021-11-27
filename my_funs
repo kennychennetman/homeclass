@@ -4,3 +4,7 @@ ask_name() {
 	echo Hello $name
 }
 
+yesno() {
+	read ans -p "Yes or No: "
+	echo $ans
+}
