@@ -6,5 +6,5 @@ ask_name() {
 
 yesno() {
 	read ans -p "Yes or No: "
-	echo $ans
+	[ "$ans" ] && echo $ans
 }
